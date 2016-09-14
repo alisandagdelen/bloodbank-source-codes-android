@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Kanbankasi</string>
+    <string name="bloodtype">Kan Grubu</string>
+    <string name="sex">Cinsiyet</string>
+    <string name="city">Şehir</string>
+    <string name="district">İlçe</string>
+
+    <string-array name="bloodtypes">
+        <item>A RH+</item>
+        <item>A RH-</item>
+        <item>B RH+</item>
+        <item>B RH-</item>
+        <item>AB RH+</item>
+        <item>AB RH-</item>
+        <item>0 RH+</item>
+        <item>0 RH-</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Erkek</item>
+        <item>Kadın</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>İstanbul</item>
+        <item>Adana</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>

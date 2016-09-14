@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="5dp"
+    tools:context=".RegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="E-mail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="İsim"
+   />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/surname"
+        android:hint="Soyisim"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:ems="10"
+        android:maxLength="12"
+        android:layout_height="wrap_content"
+        android:id="@+id/gsm"
+        android:hint="Cep Telefonu"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:ems="10"
+        android:maxLength="12"
+        android:layout_height="wrap_content"
+        android:id="@+id/gsm2"
+        android:hint="Başka Telefon"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:id="@+id/postalCode"
+        android:maxLength="5"
+        android:hint="Posta Kodu"
+        />
+    <EditText
+        android:layout_width="match_parent"
+
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:id="@+id/districtName"
+        android:hint="İlçe Adı"
+        />
+
+    <Spinner
+        android:id="@+id/bloodtype"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:prompt="@string/bloodtype"
+        android:layout_gravity="right" />
+
+    <Spinner
+        android:id="@+id/sex"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:prompt="@string/sex"
+        android:layout_gravity="right" />
+
+    <Spinner
+        android:id="@+id/city"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:prompt="@string/city"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ol"
+        android:id="@+id/register"
+        android:onClick="Register"/>
+    </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="right" />
+</LinearLayout>
